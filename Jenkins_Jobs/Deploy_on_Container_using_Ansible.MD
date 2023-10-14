@@ -62,7 +62,7 @@ Enable connection between Ansible-control-node and Jenkins
      - Copy from: `Deploy_on_Container`
      
    - *Source Code Management:*
-      - Repository: `https://github.com/akumar4k/hello-world.git
+      - Repository: https://github.com/akumar4k/hello-world.git
       - Branches to build : `*/master`  
    - *Poll SCM* :      - `* * * *`
 

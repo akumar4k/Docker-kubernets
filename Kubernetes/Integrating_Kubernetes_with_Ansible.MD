@@ -1,6 +1,6 @@
 # Integrating Kubernetes cluster with Ansible
 
-1. Login to ansible server and copy public key onto kubernetes cluseter master account 
+1. Login to ansible server and copy public key onto kubernetes cluseter master accout
 
 1. Update hosts file with new group called kubernetes and add kubernetes master in that. 
 

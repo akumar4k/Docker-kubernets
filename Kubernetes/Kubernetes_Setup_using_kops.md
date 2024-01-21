@@ -42,11 +42,11 @@
 
 1. create an S3 bucket
    ```sh
-    aws s3 mb s3://demo.k8s.itthub.net
+    aws s3 mb s3://demo01.k8s.itthub.net
    ```
 1. Expose environment variable:
    ```sh
-    export KOPS_STATE_STORE=s3://demo.k8s.itthub.net
+    export KOPS_STATE_STORE=s3://demo01.k8s.itthub.net
    ```
 
 1. Create sshkeys before creating cluster
@@ -56,7 +56,7 @@
 
 1. Create kubernetes cluster definitions on S3 bucket
    ```sh
-   kops create cluster --cloud=aws --zones=ap-south-1b --name=demo.k8s.itthub.net --dns-zone=itthub.net --dns private 
+   kops create cluster --cloud=aws --zones=ap-south-1b --name=demo01.k8s.itthub.net --dns-zone=itthub.net --dns private 
     ```
 
 1. If you wish to update the cluster worker node sizes use below command 
